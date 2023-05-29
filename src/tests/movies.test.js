@@ -16,8 +16,8 @@ const movie = {
 };
 
 const actor = {
-	firstName: "Victor",
-	lastName: "Vera",
+	firstName: "Silvestre",
+	lastName: "Stalonne",
 	nationality: "Canadian",
 	image: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
 	birthday: "1964-09-2",
