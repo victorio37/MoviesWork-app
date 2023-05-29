@@ -6,8 +6,8 @@ let directorId;
 
 test("POST /directors should return status 201 and successfully create a new director", async () => {
 	const director = {
-		firstName: "Chad",
-		lastName: "Stahelski",
+		firstName: "Steven",
+		lastName: "Spelberg",
 		nationality: "United States",
 		image: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eRCryGwKDH4XqUlrdkERmeBWPo8.jpg",
 		birthday: "1968-09-20",
