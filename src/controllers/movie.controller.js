@@ -39,7 +39,7 @@ const updateMovie = catchError(async (req, res) => {
 		{ name, image, synopsis, releaseYear },
 		{ where: { id }, returning: true }
 	);
-	return res.json(updatedMovie);
+	return res.json(updatedMovie[1][0]);
 });
 
 const setMovieGenre = catchError(async (req, res) => {
@@ -63,7 +63,7 @@ const setMovieDirector = catchError(async (req, res) => {
 	const movie = await Movie.findByPk(id);
 	await movie.setDirectors(req.body);
 	const directors = await movie.getDirectors();
-	return res.json(directors[1][0]);
+	return res.json(directors);
 });
 
 module.exports = {
