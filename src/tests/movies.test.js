@@ -24,8 +24,8 @@ const actor = {
 };
 
 const director = {
-	firstName: "Chad",
-	lastName: "Stahelski",
+	firstName: "Steven",
+	lastName: "Spelbierg",
 	nationality: "United States",
 	image: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eRCryGwKDH4XqUlrdkERmeBWPo8.jpg",
 	birthday: "1968-09-20",
