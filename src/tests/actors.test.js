@@ -6,9 +6,9 @@ let actorId;
 
 test("POST /actors should return status 201 and successfully create a new actor", async () => {
 	const actor = {
-		firstName: "victor",
-		lastName: "vera",
-		nationality: "Peru",
+		firstName: "Silvestre",
+		lastName: "Stalonne",
+		nationality: "Estados Unidos",
 		image: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
 		birthday: "1964-09-2",
 	};
