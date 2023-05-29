@@ -5,7 +5,7 @@ require("../models");
 let genreId;
 
 test("POST /genres should return status 201 and succesfully create a new genre", async () => {
-	const res = await request(app).post("/genres").send({ name: "Terror" });
+	const res = await request(app).post("/genres").send({ name: "Accion" });
 
 	expect(res.status).toBe(201);
 	expect(res.body.id).toBeDefined();
