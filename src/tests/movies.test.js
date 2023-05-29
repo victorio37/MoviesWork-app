@@ -11,7 +11,7 @@ const movie = {
 	name: "Rambo 4",
 	image: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gh2bmprLtUQ8oXCSluzfqaicyrm.jpg",
 	synopsis:
-		"John Wick descubre un camino para derrotar a la Alta Mesa. Pero para poder ganar su libertad, Wick deberá enfrentarse a un nuevo rival con poderosas alianzas en todo el mundo, capaz de convertir a viejos amigos en enemigos.",
+		"Jhon Rambo es traicionado por el comando de las fuerzas armadas de Estados Unidos y decide vengarse.",
 	releaseYear: 2023,
 };
 
